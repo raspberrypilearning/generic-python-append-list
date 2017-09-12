@@ -1,19 +1,37 @@
-## Introduction
+Python lists are mutable. This means data can be added or removed from a list.
 
-Add project description here. What will learners be making?
+- Start by creating an empty list.
 
-### What you will make
+```python
+my_list = []
+```
 
-Add something here to showcase here, for example:
+- By using the keyword `append` you can add any data to the list you like.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+```python
+my_list.append('A string')
+```
+- This would produce a list that looks like this:
+```python
+['A string']
+```
 
-Add instructions here. These should explain either how the finished project will work, or explain how to interact with the content above.
+- Lists can hold data of any type:
+```python
+my_list.append(1)
+my_list.append(['another', 'list'])
+my_list.append(('a', 'tuple'))
+```
 
-### What you will learn
+- The result of all these operations would be:
+```python
+['A string', 1, ['another', 'list'], ('a', 'tuple')]
+```
 
-This project covers elements from the following strands of the [Raspberry Pi Digital Making Curriculum](http://rpf.io/curriculum):
 
-+ [Add curriculum strand/level description.](https://www.raspberrypi.org/curriculum/strand/level)
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-Python lists are mutable. This means data can be added or removed from a list.
+Python lists are mutable. This means data can be added or removed from them. Let's try this out!
 
 - Start by creating an empty list.
 
@@ -6,12 +6,12 @@ Python lists are mutable. This means data can be added or removed from a list.
 my_list = []
 ```
 
-- By using the keyword `append` you can add any data to the list you like.
+- By using the keyword `append`, you can add any data you want to the list.
 
 ```python
 my_list.append('A string')
 ```
-- This would produce a list that looks like this:
+- This will produce a list that looks like this:
 ```python
 ['A string']
 ```
@@ -23,15 +23,7 @@ my_list.append(['another', 'list'])
 my_list.append(('a', 'tuple'))
 ```
 
-- The result of all these operations would be:
+- The final result of all these operations would be:
 ```python
 ['A string', 1, ['another', 'list'], ('a', 'tuple')]
 ```
-
-
-
-
-
-
-
-

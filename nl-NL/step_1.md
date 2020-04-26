@@ -1,29 +1,29 @@
-Python lists are mutable. This means data can be added or removed from them. Let's try this out!
+Python-lijsten zijn veranderbaar. Dit betekent dat gegevens kunnen worden toegevoegd of verwijderd. Laten we dit proberen!
 
-- Start by creating an empty list.
+- Begin met het maken van een lege lijst.
 
 ```python
-my_list = []
+mijn_lijst = []
 ```
 
-- By using the keyword `append`, you can add any data you want to the list.
+- Met het trefwoord `append` kun je alle gewenste gegevens aan de lijst toevoegen.
 
 ```python
-my_list.append('A string')
+mijn_lijst.append('Een string')
 ```
-- This will produce a list that looks like this:
+- Dit levert een lijst op die er als volgt uitziet:
 ```python
-['A string']
-```
-
-- Lists can hold data of any type:
-```python
-my_list.append(1)
-my_list.append(['another', 'list'])
-my_list.append(('a', 'tuple'))
+['Een string']
 ```
 
-- The final result of all these operations would be:
+- Lijsten kunnen gegevens van elk type bevatten:
 ```python
-['A string', 1, ['another', 'list'], ('a', 'tuple')]
+mijn_lijst.append(1)
+mijn_lijst.append(['andere', 'lijst'])
+mijn_lijst.append(('een', 'tuple'))
+```
+
+- Het eindresultaat van al deze operaties zou zijn:
+```python
+['Een string', 1, ['andere', 'lijst'], ('een', 'tuple')]
 ```

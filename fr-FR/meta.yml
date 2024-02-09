@@ -1,7 +1,7 @@
 ---
-title: Adding data to a list in Python
+title: Ajouter des données à une liste en Python
 hero_image: images/banner.png
-description: Add items to a list in Python
+description: Ajouter des éléments à une liste en Python
 original_url:
 theme: red #possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 1 #possible values: 1, 2 or 3
@@ -14,5 +14,5 @@ technologies: "python"
 site_areas:
 steps:
   - 
-    title: Adding data to a list
+    title: Ajouter des données à une liste
 

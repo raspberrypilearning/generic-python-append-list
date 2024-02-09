@@ -1,29 +1,29 @@
-Python lists are mutable. This means data can be added or removed from them. Let's try this out!
+Les listes Python sont mutables. Cela signifie que des données peuvent y être ajoutées ou supprimées. Essayons ça !
 
-- Start by creating an empty list.
+- Commence par créer une liste vide.
 
 ```python
-my_list = []
+ma_liste = []
 ```
 
-- By using the keyword `append`, you can add any data you want to the list.
+- En utilisant le mot clé `append`, tu peux ajouter toutes les données que tu veux à la liste.
 
 ```python
-my_list.append('A string')
+ma_liste.append('Une chaîne')
 ```
-- This will produce a list that looks like this:
+- Tu obtiendras ainsi une liste qui ressemblera à celle-ci :
 ```python
-['A string']
-```
-
-- Lists can hold data of any type:
-```python
-my_list.append(1)
-my_list.append(['another', 'list'])
-my_list.append(('a', 'tuple'))
+['Une chaîne']
 ```
 
-- The final result of all these operations would be:
+- Les listes peuvent contenir des données de n'importe quel type :
 ```python
-['A string', 1, ['another', 'list'], ('a', 'tuple')]
+ma_liste.append(1)
+ma_liste.append(['une autre', 'liste'])
+ma_liste.append(('un', 'tuple'))
+```
+
+- Le résultat final de toutes ces opérations est :
+```python
+['Une chaîne', 1, ['une autre', 'liste'], ('un', 'tuple')]
 ```
